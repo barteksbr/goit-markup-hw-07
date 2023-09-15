@@ -44,10 +44,23 @@
     column-gap: 24px;
 }
 
+@media(max-width: 768px) {
+    .goal_list_container {
+        visibility: hidden;
+    }
+}
+
 .section_container {
     display: flex;
     column-gap: 24px;
 }
+
+@media(max-width: 768px) {
+    .section_container {
+        flex-wrap: wrap;
+    }
+}
+
 
 .pic_container {
     display: flex;

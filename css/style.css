@@ -141,6 +141,18 @@ body {
         url("../images/people-office\ 1.jpg");
 }
 
+@media(max-width: 768px) {
+    .title_section {
+        width: 768px;
+    }
+}
+
+@media(max-width: 480px) {
+    .title_section {
+        width: 428px;
+    }
+}
+
 .main_title {
     font-weight: 700;
     font-size: 56px;
@@ -150,6 +162,20 @@ body {
     width: 496px;
     text-align: center;
     padding-bottom: 24px;
+}
+
+@media(max-width: 768px) {
+    .main_title {
+        width: 496px;
+        font-size: 56px;
+    }
+}
+
+@media(max-width: 480px) {
+    .main_title {
+        width: 320px;
+        font-size: 36px;
+    }
 }
 
 .header_button {
