@@ -32,6 +32,40 @@ body {
     margin: auto;
 }
 
+.doing_container {
+    width: 1158px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+@media(max-width: 768px) {
+    .doing_container {
+        width: 0;
+        padding-top: 0;
+        height: 96px;
+    }
+}
+
+.customer_container {
+    width: 1158px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+@media(max-width: 768px) {
+    .customer_container {
+        width: 768px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 480px) {
+    .customer_container {
+        width: 480px;
+        text-align: center;
+    }
+}
+
 .header_section {
     border-bottom: 1px solid #E7E9FC;
 }
@@ -234,12 +268,12 @@ body {
 }
 
 .modalForm_Text {
-margin: 72px 24px 16px 24px;
-font-weight: 500;
-letter-spacing: 0.02em;
-size: 16px;
-line-height: 24px;
-color: #2E2F42;
+    margin: 72px 24px 16px 24px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    size: 16px;
+    line-height: 24px;
+    color: #2E2F42;
 }
 
 .formModal_labelName {
@@ -304,6 +338,7 @@ color: #2E2F42;
     border: solid 1px #4D5AE5;
     outline: none;
 }
+
 .modalForm_icons {
     position: relative;
     right: -42px;
@@ -312,11 +347,11 @@ color: #2E2F42;
 
 .inputModal_container {
     margin-bottom: -17px;
-  }
+}
 
 .inputModal_container:focus-within {
     fill: #4D5AE5;
-  }
+}
 
 .formCheckbox {
     width: 16px;
@@ -343,7 +378,7 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
-    color:#FFFFFF;
+    color: #FFFFFF;
     padding: 25px;
 }
 
@@ -362,11 +397,26 @@ color: #2E2F42;
     flex-direction: column;
 }
 
+@media(max-width: 480px) {
+    .target_list {
+        align-items: center;
+    }
+}
+
 .target_titles {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.01em;
+}
+
+@media(max-width: 768px) {
+    .target_titles {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+    }
 }
 
 .doing_pics {
@@ -383,6 +433,12 @@ color: #2E2F42;
     width: 264px;
     padding-top: 8px;
 
+}
+
+@media(max-width: 768px) {
+    .goals {
+        width: 338px;
+    }
 }
 
 .goal_list {
@@ -403,9 +459,39 @@ color: #2E2F42;
     padding: 120px 0px 72px 0px;
 }
 
+
+.sectionDoing_title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    padding: 120px 0px 72px 0px;
+}
+
+
+@media(max-width: 768px) {
+    .sectionDoing_title {
+        visibility: hidden;
+        padding: 0;
+    }
+}
+
 .team_section {
     width: 1440px;
     background-color: #F4F4FD;
+}
+
+@media(max-width: 768px) {
+    .team_section {
+        width: 768px;
+    }
+}
+
+@media(max-width: 480px) {
+    .team_section {
+        width: 480px;
+    }
 }
 
 .person {

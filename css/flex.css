@@ -47,10 +47,12 @@
 @media(max-width: 768px) {
     .goal_list_container {
         visibility: hidden;
+        padding-top: 0;
     }
 }
 
 .section_container {
+    width: 736px;
     display: flex;
     column-gap: 24px;
 }
@@ -58,6 +60,15 @@
 @media(max-width: 768px) {
     .section_container {
         flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 72px;
+    }
+}
+
+@media(max-width: 480px) {
+    .section_container {
+        width: 428px;
+        flex-direction: column;
     }
 }
 
@@ -66,6 +77,13 @@
     display: flex;
     justify-content: center;
     padding: 0px 0px 120px 0px;
+}
+
+@media(max-width: 768px) {
+    .pic_container {
+        visibility: hidden;
+
+    }
 }
 
 .team_pics {
@@ -82,6 +100,22 @@
     padding-bottom: 120px;
 }
 
+@media(max-width: 768px) {
+    .team_container {
+        flex-wrap: wrap;
+        row-gap: 64px;
+
+    }
+}
+
+@media(max-width: 480px) {
+    .team_container {
+        flex-direction: column;
+        align-items: center;
+        width: 480px
+    }
+}
+
 .media_icon_list {
     display: flex;
     column-gap: 24px;
@@ -93,6 +127,20 @@
     padding-bottom: 120px;
     column-gap: 20px;
     justify-content: center;
+}
+
+@media(max-width: 768px) {
+    .customer_icon_list {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media(max-width: 480px) {
+    .customer_icon_list {
+        flex-wrap: wrap;
+        row-gap: 72px;
+    }
 }
 
 .portfolio_navi_container {
@@ -140,4 +188,17 @@
     width: 264px;
     display: flex;
     padding-left: 160px;
+}
+
+@media(max-width: 768px) {
+    .footer_container {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 480px) {
+    .footer_container {
+        width: 480px;
+        flex-wrap: wrap;
+    }
 }
