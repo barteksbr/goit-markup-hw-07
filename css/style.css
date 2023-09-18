@@ -119,6 +119,12 @@ body {
     line-height: 21px;
 }
 
+@media(max-width: 480px) {
+    .firm_name {
+        padding-left: 67px;
+    }
+}
+
 .navigation {
     color: #2E2F42;
     list-style: none;
@@ -632,6 +638,12 @@ li:hover .overlay {
     padding-bottom: 16px;
 }
 
+@media(max-width: 480px) {
+    .social_media_text {
+        padding-left: 67px;
+    }
+}
+
 .subscribe_footer {
     padding-left: 80px;
 }
@@ -643,11 +655,23 @@ li:hover .overlay {
     }
 }
 
+@media(max-width: 480px) {
+    .subscribe_footer {
+        padding-top: 0;
+    }
+}
+
 .footerForm_text {
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 0.02em;
     padding-bottom: 16px;
+}
+
+@media(max-width: 480px) {
+    .footerForm_text {
+        padding-left: 80px;
+    }
 }
 
 .footerForm_field {
@@ -657,6 +681,14 @@ li:hover .overlay {
     height: 40px;
     background-color: #2E2F42;
     padding-left: 10px;
+}
+
+@media(max-width: 480px) {
+    .footerForm_field {
+        position: relative;
+        left: -95px;
+        width: 398px
+    }
 }
 
 .footerTextButton {
@@ -673,6 +705,12 @@ li:hover .overlay {
 @media(max-width: 768px) {
     .social_media_footer {
         padding-left: 20px;
+    }
+}
+
+@media(max-width: 480px) {
+    .social_media_footer {
+        padding-left: 0;
     }
 }
 

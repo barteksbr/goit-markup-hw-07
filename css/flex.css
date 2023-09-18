@@ -180,8 +180,22 @@
     margin-left: 24px;
 }
 
+@media(max-width: 480px) {
+    .footerForm_button {
+        margin-left: 40px;
+    }
+
+}
+
 .form_container {
     display: flex;
+}
+
+@media(max-width: 480px) {
+    .form_container {
+        flex-direction: column;
+        gap: 18px;
+    }
 }
 
 .footer_container {
@@ -203,6 +217,8 @@
 @media(max-width: 480px) {
     .footer_container {
         width: 480px;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        gap: 72px;
     }
 }
