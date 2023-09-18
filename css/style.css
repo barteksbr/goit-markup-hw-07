@@ -26,6 +26,28 @@ body {
     max-width: 1440px;
 }
 
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+  
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  @media (min-width: 480px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+
 .container {
     width: 1158px;
     padding: 0px 15px;
@@ -109,6 +131,15 @@ body {
 
 }
 
+.firm_name_top {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+}
+
 
 .firm_name {
     color: #4D5AE5;
@@ -171,10 +202,34 @@ body {
     padding-left: 370px;
 }
 
+@media(max-width: 768px) {
+    .adress {
+        display: flex;
+        flex-direction: column;
+        padding-left: 500px;
+        position: relative;
+        top: -35px;
+        left: 65px
+    }
+}
+
+@media(max-width: 480px) {
+    .adress {
+        display: none;
+    }
+}
+
+
 .contact-links {
     text-decoration: none;
     color: #434455;
     padding: 20px;
+}
+
+@media(max-width: 768px) {
+    .contact-links {
+        padding: 5px;
+    }
 }
 
 .contact-links:hover {
@@ -196,6 +251,8 @@ body {
 @media(max-width: 768px) {
     .title_section {
         width: 768px;
+        position: relative;
+        top: -59px
     }
 }
 

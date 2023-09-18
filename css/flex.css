@@ -6,11 +6,29 @@
     width: 1440px;
 }
 
+@media(max-width: 768px) {
+    .header_container {
+        width: 768px;
+    }
+}
+
+@media(max-width: 480px) {
+    .header_container {
+        width: 480px;
+    }
+}
+
 
 .navi_container {
     display: flex;
     padding-left: 76px;
     gap: 40px;
+}
+
+@media(max-width: 480px) {
+    .navi_container {
+        display: none;
+    }
 }
 
 .form_modal {
@@ -27,6 +45,16 @@
     display: flex;
     justify-content: center;
     margin: 24px 120px 24px 120px;
+}
+
+@media(max-width: 480px){
+.phone_mobile_container {
+    display: flex;
+    width: 428px;
+    height: 70px;
+    justify-content: space-between;
+    flex-direction: row-reverse
+}
 }
 
 .title_container {
