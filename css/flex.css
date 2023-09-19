@@ -19,6 +19,22 @@
     }
 }
 
+.mobile_contactLinks {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 284px;
+}
+
+.mobile_mediaIcons {
+    margin-top: 48px;
+    display: flex;
+}
+
+.mobileMedia_icon_list {
+    display: flex;
+    column-gap: 56px;
+    padding-top: 8px;
+}
 
 .navi_container {
     display: flex;
