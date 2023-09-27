@@ -10,6 +10,15 @@
 @media(min-width:768px) {
     .header_container {
         width: 768px;
+        flex-wrap: nowrap;
+        margin-left: 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .header_container {
+        width: 1200px;
+        
     }
 }
 
@@ -40,6 +49,9 @@
 @media(min-width:768px) {
     .navi_container {
         display: flex;
+        padding-right: 156px;
+        position: relative;
+        top: 21px
     }
 }
 
@@ -67,6 +79,12 @@
     flex-direction: row-reverse
 }
 
+@media(min-width:768px) {
+    .phone_mobile_section {
+        width: 768px;
+    }
+}
+
 
 .title_container {
     display: flex;
@@ -85,6 +103,13 @@
     padding-top: 0;
 }
 
+@media(min-width:1200px) {
+    .goal_list_container {
+        display: flex;
+        padding-top: 120px;
+    }
+}
+
 .section_container {
     width: 736px;
     display: flex;
@@ -99,6 +124,14 @@
         width: auto;
         flex-wrap: wrap;
         flex-direction: row;
+    }
+}
+
+@media(min-width:1200px) {
+    .section_container {
+        width:1200px;
+        justify-content: center;
+        margin-top: 0px;
     }
 }
 
@@ -234,4 +267,3 @@
     display: flex;
     align-self: center;
 }
-

@@ -35,6 +35,12 @@ body {
     background: #FCFCFC;
 }
 
+@media(min-width:768px) {
+    .mobile_menu {
+        display: none;
+    }
+}
+
 .is-open {
     pointer-events: none;
     visibility: hidden;
@@ -141,6 +147,15 @@ body {
     }
 }
 
+@media(min-width:1200px) {
+    .container {
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .doing_container {
     width: 1158px;
     padding: 0px 15px;
@@ -158,6 +173,8 @@ body {
 @media(min-width:768px) {
     .customer_container {
         width: 768px;
+        width: auto;
+        ;
     }
 }
 
@@ -196,6 +213,14 @@ body {
     text-decoration: none;
     font-size: 18px;
     line-height: 21px;
+}
+
+@media(min-width:768px) {
+    .firm_name_top {
+        position: relative;
+        left: -33px;
+        top: 23px;
+    }
 }
 
 
@@ -257,7 +282,20 @@ body {
 
 @media(min-width:768px) {
     .adress {
-        display: block;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(min-width:1200px) {
+    .adress {
+        padding-left: 200px;
+        display: flex;
+        flex-direction: row;
+        width: 358px;
+        position: relative;
+        top: 10px;
     }
 }
 
@@ -275,6 +313,12 @@ body {
     color: #4D5AE5;
 }
 
+@media(min-width:768px) {
+    .contact-links {
+        padding: 7px;
+    }
+}
+
 .title_section {
     background-color: #2E2F42;
     width: 428px;
@@ -286,6 +330,7 @@ body {
 @media(min-width:768px) {
     .title_section {
         width: 768px;
+        width: auto;
     }
 }
 
@@ -501,12 +546,26 @@ body {
     }
 }
 
+@media(min-width:1200px) {
+    .target_list {
+        align-items: baseline;
+    }
+}
+
 .target_titles {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
     line-height: 40px;
+}
+
+@media(min-width:1200px) {
+    .target_titles {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+    }
 }
 
 .doing_pics {
@@ -528,6 +587,12 @@ body {
 @media(min-width:768px) {
     .goals {
         width: 356px;
+    }
+}
+
+@media(min-width:1200px) {
+    .goals {
+        width: 264px;
     }
 }
 
@@ -569,6 +634,7 @@ body {
 @media(min-width:768px) {
     .team_section {
         width: 768px;
+        width: auto;
     }
 }
 
@@ -758,6 +824,7 @@ li:hover .overlay {
 @media(min-width: 768px) {
     .footer {
         width: 768px;
+        width: auto;
     }
 }
 
