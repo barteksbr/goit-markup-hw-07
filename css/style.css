@@ -164,10 +164,10 @@ body {
 }
 
 .customer_container {
-    width: 480px;
-    padding: 0px 15px;
-    margin: auto;
-    text-align: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media(min-width:768px) {
@@ -626,8 +626,10 @@ body {
 }
 
 .team_section {
-    margin: auto;
-    width: 480px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #F4F4FD;
 }
 

@@ -18,7 +18,7 @@
 @media(min-width:1200px) {
     .header_container {
         width: 1200px;
-        
+
     }
 }
 
@@ -129,7 +129,7 @@
 
 @media(min-width:1200px) {
     .section_container {
-        width:1200px;
+        width: 1200px;
         justify-content: center;
         margin-top: 0px;
     }
@@ -164,9 +164,16 @@
 
 @media(min-width:768px) {
     .team_container {
-        width: auto;
+        width: 720px;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+}
+
+@media(min-width:1200px) {
+    .team_container {
+        width: auto;
+
     }
 }
 
@@ -187,7 +194,14 @@
 
 @media(min-width:768px) {
     .customer_icon_list {
+        width: 720px;
         column-gap: 30px;
+    }
+}
+
+@media(min-width:1200px) {
+    .customer_icon_list {
+        width: 1200px;
     }
 }
 
