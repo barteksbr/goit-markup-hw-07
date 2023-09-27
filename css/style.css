@@ -28,7 +28,8 @@ body {
 
 .mobile_menu {
     position: absolute;
-    top: 49%;
+    width: 459px;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #FCFCFC;
@@ -53,7 +54,12 @@ body {
     border: none;
     border-radius: 50%;
     outline: none;
-    
+}
+
+@media(min-width:768px) {
+    .menu-toggle {
+        display: none;
+    }
 }
 
 .mobile_menu_container {
@@ -129,6 +135,12 @@ body {
     margin: auto;
 }
 
+@media(min-width:768px) {
+    .container {
+        width: 768px;
+    }
+}
+
 .doing_container {
     width: 1158px;
     padding: 0px 15px;
@@ -143,6 +155,11 @@ body {
     text-align: center;
 }
 
+@media(min-width:768px) {
+    .customer_container {
+        width: 768px;
+    }
+}
 
 
 .portfolio_button {
@@ -238,6 +255,12 @@ body {
     display: none;
 }
 
+@media(min-width:768px) {
+    .adress {
+        display: block;
+    }
+}
+
 .contact-links {
     text-decoration: none;
     color: #434455;
@@ -260,6 +283,12 @@ body {
         url("../images/people-office\ 1.jpg");
 }
 
+@media(min-width:768px) {
+    .title_section {
+        width: 768px;
+    }
+}
+
 .main_title {
     font-weight: 700;
     font-size: 36px;
@@ -269,6 +298,13 @@ body {
     width: 320px;
     text-align: center;
     padding-bottom: 24px;
+}
+
+@media(min-width:768px) {
+    .main_title {
+        width: 496px;
+        font-size: 56px;
+    }
 }
 
 
@@ -459,6 +495,12 @@ body {
     padding-left: 67px;
 }
 
+@media(min-width:768px) {
+    .target_list {
+        padding: 0;
+    }
+}
+
 .target_titles {
     color: #2E2F42;
     font-weight: 700;
@@ -481,6 +523,12 @@ body {
     padding-bottom: 72px;
     letter-spacing: 0.02em;
     width: 379px;
+}
+
+@media(min-width:768px) {
+    .goals {
+        width: 356px;
+    }
 }
 
 .goal_list {
@@ -513,9 +561,15 @@ body {
 }
 
 .team_section {
-    margin:auto;
+    margin: auto;
     width: 480px;
     background-color: #F4F4FD;
+}
+
+@media(min-width:768px) {
+    .team_section {
+        width: 768px;
+    }
 }
 
 .person {
@@ -650,6 +704,14 @@ li:hover .overlay {
     align-items: center
 }
 
+@media(min-width:768px) {
+    .subscribe_footer {
+        align-items: flex-start;
+        position: relative;
+        right: 50px;
+    }
+}
+
 .footerForm_text {
     font-size: 16px;
     color: #FFFFFF;
@@ -665,6 +727,13 @@ li:hover .overlay {
     background-color: #2E2F42;
     padding-left: 10px;
 }
+
+@media(min-width: 768px) {
+    .footerForm_field {
+        width: 264px;
+    }
+}
+
 
 .footerTextButton {
     color: #FFFFFF;
@@ -684,6 +753,12 @@ li:hover .overlay {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+@media(min-width: 768px) {
+    .footer {
+        width: 768px;
+    }
 }
 
 .footer_text {
